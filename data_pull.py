@@ -23,10 +23,7 @@ apple_ts = td.time_series(
 
 df = apple_ts.as_pandas()
 
-print(df.head())
-
 df.to_csv("AppleStock.csv", index=True)
-apple_ts.to_csv("AppleStocks.csv", index=False)
 
 
 
